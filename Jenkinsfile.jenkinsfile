@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/fingli/Student_Registry_App.git'
+                git branch: 'main', url: 'https://github.com/fingli/Student_Registry_App'
             }
         }
 
